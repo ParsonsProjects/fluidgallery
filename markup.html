@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+
+<link type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.0/normalize.min.css" media="all" rel="stylesheet" />
+<link type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/1140/2.0/1140.min.css" media="all" rel="stylesheet" />
+<link rel="stylesheet" href="fluidgallery.css">
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+<script src="fluidgallery.js"></script>
+<script>
+	$(function(){
+		$('[data-fluidgallery]').each(function(){
+			$(this).fluidgallery();
+		});
+	});
+</script>
+
+</head>
+<body>
+
+<div class="container">
+	<div class="row">
+		<div data-fluidgallery data-fg-title="Puppies" data-fg-large="//c1.staticflickr.com/1/5/7767716_cb753a9f97_b.jpg">
+			<div class="inset">
+				<div class="image">
+					<img src="//c1.staticflickr.com/1/5/7767716_cb753a9f97_b.jpg" width="400" alt="Puppies">
+				</div>
+				<div class="label">View Image</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
