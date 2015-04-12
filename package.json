@@ -1,0 +1,51 @@
+{
+  "name": "fluidgallery",
+  "filename": "fluidgallery.js",
+  "version": "1.4.4",
+  "description": "Replicating and improving fluidbox with a gallery option. Using .animate",
+  "homepage": "https://github.com/ParsonsProjects/fluidgallery",
+  "main": "fluidgallery.js",
+  "authors": [
+    {
+      "name": "Alan Parsons",
+      "email": "parsonsprojects@outlook.com",
+      "homagepage": "http://www.parsonsprojects.co.uk/"
+    }
+  ],
+  "maintainers": [
+    "Alan Parsons <parsonsprojects@outlook.com>"
+  ],
+  "repositories": {
+    "type": "git",
+    "url": "https://github.com/ParsonsProjects/fluidgallery"
+  },
+  "keywords": [
+    "fluidgallery",
+    "lightbox"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "package.json"
+  ],
+  "dependencies": {
+    "jquery": ">=1.9"
+  },
+  "npmName": "fluidbox",
+  "npmFileMap": [
+    {
+      "basePath": "/dist/",
+      "files": [
+        "./fluidgallery.js",
+        "./fluidgallery.css"
+      ]
+    }
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "author": "Alan Parsons <parsonsprojects@outlook.com> (http://www.parsonsprojects.co.uk/)"
+}
