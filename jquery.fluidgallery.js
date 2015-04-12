@@ -153,7 +153,7 @@
                 // Store this element
                 $el = $(this);
                 // Update index
-                currentIndex = $el.index();
+                currentIndex = $el.index('.fg');
                 // Add a loader helps if slow to load image
                 plugin.addLoader($el.find('.image'));
                 // Initiate gallery
@@ -197,6 +197,8 @@
                 imgOffset = $img.offset(),
                 imgTop = imgOffset.top,
                 imgLeft = imgOffset.left;
+
+                console.log(currentIndex);
 
             // Stop any animation and hide external elements
             if(plugin.options.gallery) $controls.stop(true, true).hide();
@@ -276,7 +278,11 @@
                 plugin.closeFb();
             });
 
-            if($el.attr('data-fg-gallery')) plugin.options.gallery = true;
+            if($el.attr('data-fg-gallery')) {
+                plugin.options.gallery = true;
+            } else {
+                plugin.options.gallery = false;
+            }
 
             // Add some controls if needed
             if(plugin.options.gallery) {

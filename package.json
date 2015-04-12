@@ -1,10 +1,10 @@
 {
   "name": "fluidgallery",
-  "filename": "fluidgallery.js",
+  "filename": "jquery.fluidgallery.js",
   "version": "1.4.4",
   "description": "Replicating and improving fluidbox with a gallery option. Using .animate",
   "homepage": "https://github.com/ParsonsProjects/fluidgallery",
-  "main": "fluidgallery.js",
+  "main": "jquery.fluidgallery.js",
   "authors": [
     {
       "name": "Alan Parsons",
@@ -39,7 +39,7 @@
     {
       "basePath": "/dist/",
       "files": [
-        "./fluidgallery.js",
+        "./jquery.fluidgallery.js",
         "./fluidgallery.css"
       ]
     }

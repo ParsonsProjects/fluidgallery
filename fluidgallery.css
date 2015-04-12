@@ -8,6 +8,10 @@ html {
 	font-family: 'Open Sans', sans-serif;
 }
 
+body {
+	padding: 20px 0;
+}
+
 .fg {
 	display: inline-block;
 	margin: 0 auto;
@@ -20,7 +24,7 @@ html {
 .fg .inset {
 	position: relative;
 	overflow: hidden;
-	margin: 10px;
+	margin: 20px 0;
 }
 
 .fg .inset:before {
