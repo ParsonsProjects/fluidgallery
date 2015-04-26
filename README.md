@@ -9,9 +9,9 @@ Replicating and improving fluidbox with a gallery option. Using .animate
 [Simple Demo](https://parsonsprojects.github.io/fluidgallery/)
 
 # Introduction
-This is a plugin inspired by [fluidbox](https://github.com/terrymun/Fluidbox) with some minor enhancments it works with multiple images allowing a gallery and uses jQuery animate instead of CSS translate for better IE8 compatability plus some other minor tweaks. At the moment this is still having the finishing touches applied but feel free to use or play around with.
+This is a plugin inspired by [fluidbox](https://github.com/terrymun/Fluidbox) with some minor enhancements it works with multiple images allowing a gallery and uses jQuery animate instead of CSS translate for better IE8 compatibility plus some other minor tweaks. At the moment this is still having the finishing touches applied but feel free to use or play around with.
 
-I really liked the way that fluidbox pops up from the image itself but I needed some enhancments one was to allow me to group images into a gallery so that you could cycle through the images once the lightbox was opened. The second was to add some extra markup a title and a close button. The third was to make it compatable with IE8+
+I really liked the way that fluidbox pops up from the image itself but I needed some enhancements one was to allow me to group images into a gallery so that you could cycle through the images once the lightbox was opened. The second was to add some extra markup a title and a close button. The third was to make it compatible with IE8+
 
 Although not thoroughly tested, this should work in >= IE8, Chrome, Firefox, Safari.
 
